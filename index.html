@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Source+Code+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
     <title>Pousada Secreta</title>
 </head>
 <body>
@@ -17,13 +21,15 @@
         </nav>
     </header>
     <section class="banner">
+        <section class="texto-banner">
         <h1> Pousada Secreta </h1>
-        <p> Pousada reservada em <em>Salvador-Ba</em> </p>
+        <p>  A Pousada reservada em <em>Salvador-Ba</em> </p>
+        </section>
     </section>
     <main>
         <div class="apresentacao">
             <section class="texto-apresentacao">
-                <h2>SEJA BEM-VINDO(A)</h2>
+                <h2>SEJA BEM-VINDO(A)!</h2>
                 <P> Relaxe em nossas acomodações e curta o melhor de Salvador-BA</P>
                 <p> Temos quartos para solteiros, casal ou familia </p>
             </section>
@@ -44,72 +50,91 @@
                     <div class="linha"> </div>
                 </div>        
             </section>
-        <section class="rotas" id="rotas">
+        </div>    
+        <section class="rotas" id="rota">
             <h3>ROTA</h3>
             <p>Veja como chegar até a pousada! </p>
-            <iframe src="https://www.google.com/maps/place/Salvador+Surf+Hostel/@-13.0082059,-38.5322323,16z/data=!4m12!1m2!2m1!1spousada!3m8!1s0x7160357857b3817:0x6d932ff12cf7e546!5m2!4m1!1i2!8m2!3d-13.0082059!4d-38.5322323!16s%2Fg%2F11f61cx5pk?entry=ttu" width=100%> </iframe> </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7774.800543883959!2d-38.5319786!3d-13.0101632!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716036574b7a5e9%3A0xdf1fb72a02881d1a!2sPousada%20Marcos!5e0!3m2!1spt-BR!2sbr!4v1699153247108!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="400px"> </iframe>
         </section>
         <section class="sobre" id="sobre">
-                <section class="texto-sobre">
-                    <H4>SOBRE A POUSADA!</H4>
-                    <P>conheça um pouco sobre nossa pousada</P>
-                </section>
-                <section class="quartos">
-                    <div class="card-quartos">
-                        <div class="texto-card">
-                            <h5>A pousada</h5>
-                            <p>A pousada dispõe de estacionamento gratuito, piscina e bar </p>
-                        </div>
+            <div class="titulo-sobre">
+                <h4>Sobre a Pousada!</h4>
+                <p>Conheça um pouco sobre nossa pousada.</p>
+            </div>
+            <div class="container-card-sobre">
+                <div class="card-sobre">
+                    <div class="texto-card">
+                        <h5>A pousada</h5>
+                        <p> A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>                        
+                    </div>
+                    <div class="imagem-card">
                         <img src="assets/img1.jpg" alt="pousada">
                     </div>
-                    <div class="card-quartos">
-                        <div class="texto-card">
-                            <h5>Nossos quartos</h5>
-                            <p> Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeições. Além disso, as unidades da Pousada Dev contam com ar-condicionado e guarda-roupa.</p>
-                        </div>
-                        <img src="assets/img2.jpg" alt="quartos">
+                </div>
+                <div class="card-sobre">
+                    <div class="texto-card">
+                        <h5>Nossos quartos</h5>
+                        <p>Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeições. Além disso, as unidades da Pousada Dev contam com ar-condicionado e guarda-roupa.</p>
                     </div>
-                    <div class="card-quartos">
-                        <div class="texto-card">
-                            <h5>Alimentação</h5>
-                            <p>A pousada serve café da manhã em estilo continental ou buffet.
-                                Nossos restaurantes funcionam 24hrs</p>
-                        </div>
-                        <img src="assets/img3.jpg" alt="Alimentação">
+                    <div class="imagem-card">
+                        <img src="assets/img2.jpg" alt="quartos" >
                     </div>
-                    <div class="card-quartos">
-                        <div class="texto-card">
-                            <h5>Recepção</h5>
-                            <p>Nossa recepção fica aberta 24hrs.</p>
-                        </div>
-                        <img src="assets/img5.jpg" alt="recepção">
+                </div>
+                <div class="card-sobre">
+                    <div class="texto-card">
+                        <h5>Alimentação</h5>
+                        <p>A pousada serve café da manhã em estilo continental ou buffet.
+                            Nossos restaurantes funcionam 24hrs</p>
                     </div>
-                </section>
-        </section>
+                    <div class="imagem-card">
+                        <img src="assets/img3.jpg" alt="comida">
+                    </div>
+                </div>
+                <div class="card-sobre">
+                    <div class="texto-card texto-curto">
+                        <h5>Recpção</h5>
+                        <p>Nossa recepção fica aberta 24hrs.</p>
+                    </div>
+                    <div class="imagem-card">
+                        <img src="assets/img5.jpg" alt="recpção">
+                    </div>
+                </div>   
+            </div>
+
+        </section>    
         <footer>
-            <article class="contato">
+            <article class="container-contato">
                 <div class="card-contato">
                  <h6>Entre em contato conosco:</h6>
                 </div>
                 <div class="card-contato">
-                    <img src="assets/icones/endereco.png" alt="endereço">
+                    <div class="icone-contato">
+                     <img src="assets2/endereco.png" alt="endereço">
+                    </div>
                     <div class="texto-contato">
                        <p>Endereço Av. 123, 222 - Salvador-BA</p>
                     </div>
                 </div>
                 <div class="card-contato">
-                    <img src="assets/icones/telefone.png" alt="telefone">
+                    <div class="icone-contato">
+                     <img src="assets2/telefone.png" alt="telefone">
+                    </div>
                     <div class="texto-contato">
-                      <p>800000000</p>
+                      <p>CEL: 800000000</p>
                     </div>
                 </div>
                 <div class="card-contato">
-                    <img src="assets/icones/calendario.png" alt="calendário">
+                    <div class="icone-conato">
+                     <img src="assets2/calendario.png">
+                    </div>
                     <div class="texto-contato">
                       <p> Faça sua reserva pelo Booking.com</p>
                     </div>
                 </div>
             </article>
+            <div class="rodape">
+                <p>© Copyright - RAFAEL SILVA </p>
+            </div>
         </footer>
         
         
