@@ -120,6 +120,13 @@ nav a{
     justify-content: center;
     align-items: center;
     padding: 15px 20px;
+    transition: 0.3s ease-in-out;   
+}
+.card-quartos:hover{
+    transform: scale(1.1);
+    
+    
+   
 }
 .linha{
     width: 400px;
@@ -197,6 +204,11 @@ nav a{
     padding: 0px 10px;
     text-align: left;
     background-color: rgb(245, 245, 245);
+    transition: 0.3s ease-in-out;
+}
+
+.card-sobre:hover{
+    transform: scale(1.1);
 }
 .texto-card{
     color: rgb(71, 71, 71);
